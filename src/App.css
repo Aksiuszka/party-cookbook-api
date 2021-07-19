@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Molle:ital@1&family=Poppins:wght@200&display=swap');
+.App{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+
+svg{
+    
+    padding-top:15px;
+    font-family: 'Coiny', cursive;
+    font-size: 105px;
+    font-weight: bold;
+    transition: 1s font-size;
+    top:0;
+    left:0;
+    height:100%;
+
+}
+@media  screen and (max-width:1200px) {
+    svg{
+        font-size:4em;
+    }
+}
+
+h2{
+    margin-top:-50px;
+    font-size: 3em;
+    font-family: 'Molle', cursive;
+    color: lightcoral;
+    margin-left:50%;
+     
+}
+
+.search-form{
+    margin-top:-30px;
+min-height:10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.search-bar{
+    width: 50%;
+    border: none;
+    padding: 15px;  
+}
+.search-button{
+    background-color: lightcoral;
+    color: white;
+    border:none;
+    padding:15px;
+}
+.recipes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
